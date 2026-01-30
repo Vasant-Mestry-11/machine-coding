@@ -1,0 +1,26 @@
+.accordianContainer {
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 10px;
+  gap: 1rem;
+}
+
+.accordian {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.accordianHeader {
+  background-color: rgba(177, 177, 177, 0.536);
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordianBody {
+  padding: 20px;
+}

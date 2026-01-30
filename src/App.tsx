@@ -1,11 +1,13 @@
 import "./App.css";
-import Debounce from "./components/debounce";
+import Accordian from "./components/accordian";
+// import Debounce from "./components/debounce";
 
 function App() {
   return (
     <>
       <h1>Machine coding questions</h1>
-      <Debounce />
+      {/* <Debounce /> */}
+      <Accordian />
     </>
   );
 }
