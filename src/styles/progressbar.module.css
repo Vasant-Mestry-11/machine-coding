@@ -1,0 +1,25 @@
+.outer {
+  width: 80%;
+  border: 1px solid black;
+  margin: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.inner {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  animation: scroll 1s ease-in;
+}
+
+@keyframes scroll {
+  0% {
+    width: 0;
+  }
+  ,
+  100% {
+    width: 100%;
+  }
+}

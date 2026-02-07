@@ -1,5 +1,6 @@
 import "./App.css";
-import Accordian from "./components/accordian";
+import ProgressBar from "./components/ProgressBar";
+// import Accordian from "./components/accordian";
 // import Debounce from "./components/debounce";
 
 function App() {
@@ -7,7 +8,12 @@ function App() {
     <>
       <h1>Machine coding questions</h1>
       {/* <Debounce /> */}
-      <Accordian />
+      {/* <Accordian /> */}
+      <ProgressBar progress={50} />
+      <ProgressBar progress={80} />
+      <ProgressBar progress={20} />
+      <ProgressBar progress={90} />
+      <ProgressBar progress={3} />
     </>
   );
 }
